@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D92C8626D71B4700C7C04F /* RandomThermometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D92C8526D71B4700C7C04F /* RandomThermometerApp.swift */; };
+		08D92C8826D71B4700C7C04F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D92C8726D71B4700C7C04F /* ContentView.swift */; };
+		08D92C8A26D71B5400C7C04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D92C8926D71B5400C7C04F /* Assets.xcassets */; };
+		08D92C8D26D71B5400C7C04F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D92C8C26D71B5400C7C04F /* Preview Assets.xcassets */; };
+		08D92C9826D71B5500C7C04F /* RandomThermometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D92C9726D71B5500C7C04F /* RandomThermometerTests.swift */; };
+		08D92CA326D71B5500C7C04F /* RandomThermometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D92CA226D71B5500C7C04F /* RandomThermometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08D92C9426D71B5500C7C04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D92C7A26D71B4700C7C04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D92C8126D71B4700C7C04F;
+			remoteInfo = RandomThermometer;
+		};
+		08D92C9F26D71B5500C7C04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D92C7A26D71B4700C7C04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D92C8126D71B4700C7C04F;
+			remoteInfo = RandomThermometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D92C8226D71B4700C7C04F /* RandomThermometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomThermometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D92C8526D71B4700C7C04F /* RandomThermometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomThermometerApp.swift; sourceTree = "<group>"; };
+		08D92C8726D71B4700C7C04F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08D92C8926D71B5400C7C04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08D92C8C26D71B5400C7C04F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08D92C8E26D71B5400C7C04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D92C9326D71B5500C7C04F /* RandomThermometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomThermometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D92C9726D71B5500C7C04F /* RandomThermometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomThermometerTests.swift; sourceTree = "<group>"; };
+		08D92C9926D71B5500C7C04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D92C9E26D71B5500C7C04F /* RandomThermometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomThermometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D92CA226D71B5500C7C04F /* RandomThermometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomThermometerUITests.swift; sourceTree = "<group>"; };
+		08D92CA426D71B5500C7C04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D92C7F26D71B4700C7C04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D92C9026D71B5500C7C04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D92C9B26D71B5500C7C04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D92C7926D71B4700C7C04F = {
+			isa = PBXGroup;
+			children = (
+				08D92C8426D71B4700C7C04F /* RandomThermometer */,
+				08D92C9626D71B5500C7C04F /* RandomThermometerTests */,
+				08D92CA126D71B5500C7C04F /* RandomThermometerUITests */,
+				08D92C8326D71B4700C7C04F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08D92C8326D71B4700C7C04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D92C8226D71B4700C7C04F /* RandomThermometer.app */,
+				08D92C9326D71B5500C7C04F /* RandomThermometerTests.xctest */,
+				08D92C9E26D71B5500C7C04F /* RandomThermometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08D92C8426D71B4700C7C04F /* RandomThermometer */ = {
+			isa = PBXGroup;
+			children = (
+				08D92C8526D71B4700C7C04F /* RandomThermometerApp.swift */,
+				08D92C8726D71B4700C7C04F /* ContentView.swift */,
+				08D92C8926D71B5400C7C04F /* Assets.xcassets */,
+				08D92C8E26D71B5400C7C04F /* Info.plist */,
+				08D92C8B26D71B5400C7C04F /* Preview Content */,
+			);
+			path = RandomThermometer;
+			sourceTree = "<group>";
+		};
+		08D92C8B26D71B5400C7C04F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08D92C8C26D71B5400C7C04F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08D92C9626D71B5500C7C04F /* RandomThermometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				08D92C9726D71B5500C7C04F /* RandomThermometerTests.swift */,
+				08D92C9926D71B5500C7C04F /* Info.plist */,
+			);
+			path = RandomThermometerTests;
+			sourceTree = "<group>";
+		};
+		08D92CA126D71B5500C7C04F /* RandomThermometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08D92CA226D71B5500C7C04F /* RandomThermometerUITests.swift */,
+				08D92CA426D71B5500C7C04F /* Info.plist */,
+			);
+			path = RandomThermometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08D92C8126D71B4700C7C04F /* RandomThermometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D92CA726D71B5500C7C04F /* Build configuration list for PBXNativeTarget "RandomThermometer" */;
+			buildPhases = (
+				08D92C7E26D71B4700C7C04F /* Sources */,
+				08D92C7F26D71B4700C7C04F /* Frameworks */,
+				08D92C8026D71B4700C7C04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomThermometer;
+			productName = RandomThermometer;
+			productReference = 08D92C8226D71B4700C7C04F /* RandomThermometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08D92C9226D71B5500C7C04F /* RandomThermometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D92CAA26D71B5500C7C04F /* Build configuration list for PBXNativeTarget "RandomThermometerTests" */;
+			buildPhases = (
+				08D92C8F26D71B5500C7C04F /* Sources */,
+				08D92C9026D71B5500C7C04F /* Frameworks */,
+				08D92C9126D71B5500C7C04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D92C9526D71B5500C7C04F /* PBXTargetDependency */,
+			);
+			name = RandomThermometerTests;
+			productName = RandomThermometerTests;
+			productReference = 08D92C9326D71B5500C7C04F /* RandomThermometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08D92C9D26D71B5500C7C04F /* RandomThermometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D92CAD26D71B5500C7C04F /* Build configuration list for PBXNativeTarget "RandomThermometerUITests" */;
+			buildPhases = (
+				08D92C9A26D71B5500C7C04F /* Sources */,
+				08D92C9B26D71B5500C7C04F /* Frameworks */,
+				08D92C9C26D71B5500C7C04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D92CA026D71B5500C7C04F /* PBXTargetDependency */,
+			);
+			name = RandomThermometerUITests;
+			productName = RandomThermometerUITests;
+			productReference = 08D92C9E26D71B5500C7C04F /* RandomThermometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08D92C7A26D71B4700C7C04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					08D92C8126D71B4700C7C04F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					08D92C9226D71B5500C7C04F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 08D92C8126D71B4700C7C04F;
+					};
+					08D92C9D26D71B5500C7C04F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 08D92C8126D71B4700C7C04F;
+					};
+				};
+			};
+			buildConfigurationList = 08D92C7D26D71B4700C7C04F /* Build configuration list for PBXProject "RandomThermometer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08D92C7926D71B4700C7C04F;
+			productRefGroup = 08D92C8326D71B4700C7C04F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D92C8126D71B4700C7C04F /* RandomThermometer */,
+				08D92C9226D71B5500C7C04F /* RandomThermometerTests */,
+				08D92C9D26D71B5500C7C04F /* RandomThermometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08D92C8026D71B4700C7C04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D92C8D26D71B5400C7C04F /* Preview Assets.xcassets in Resources */,
+				08D92C8A26D71B5400C7C04F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D92C9126D71B5500C7C04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D92C9C26D71B5500C7C04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D92C7E26D71B4700C7C04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D92C8826D71B4700C7C04F /* ContentView.swift in Sources */,
+				08D92C8626D71B4700C7C04F /* RandomThermometerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D92C8F26D71B5500C7C04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D92C9826D71B5500C7C04F /* RandomThermometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D92C9A26D71B5500C7C04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D92CA326D71B5500C7C04F /* RandomThermometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08D92C9526D71B5500C7C04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D92C8126D71B4700C7C04F /* RandomThermometer */;
+			targetProxy = 08D92C9426D71B5500C7C04F /* PBXContainerItemProxy */;
+		};
+		08D92CA026D71B5500C7C04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D92C8126D71B4700C7C04F /* RandomThermometer */;
+			targetProxy = 08D92C9F26D71B5500C7C04F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D92CA526D71B5500C7C04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08D92CA626D71B5500C7C04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08D92CA826D71B5500C7C04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RandomThermometer/Preview Content\"";
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RandomThermometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ykws.RandomThermometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D92CA926D71B5500C7C04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RandomThermometer/Preview Content\"";
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RandomThermometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ykws.RandomThermometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08D92CAB26D71B5500C7C04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
+				INFOPLIST_FILE = RandomThermometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ykws.RandomThermometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomThermometer.app/RandomThermometer";
+			};
+			name = Debug;
+		};
+		08D92CAC26D71B5500C7C04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
+				INFOPLIST_FILE = RandomThermometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ykws.RandomThermometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomThermometer.app/RandomThermometer";
+			};
+			name = Release;
+		};
+		08D92CAE26D71B5500C7C04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
+				INFOPLIST_FILE = RandomThermometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ykws.RandomThermometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RandomThermometer;
+			};
+			name = Debug;
+		};
+		08D92CAF26D71B5500C7C04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYT8BVWJBJ;
+				INFOPLIST_FILE = RandomThermometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ykws.RandomThermometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RandomThermometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D92C7D26D71B4700C7C04F /* Build configuration list for PBXProject "RandomThermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D92CA526D71B5500C7C04F /* Debug */,
+				08D92CA626D71B5500C7C04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D92CA726D71B5500C7C04F /* Build configuration list for PBXNativeTarget "RandomThermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D92CA826D71B5500C7C04F /* Debug */,
+				08D92CA926D71B5500C7C04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D92CAA26D71B5500C7C04F /* Build configuration list for PBXNativeTarget "RandomThermometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D92CAB26D71B5500C7C04F /* Debug */,
+				08D92CAC26D71B5500C7C04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D92CAD26D71B5500C7C04F /* Build configuration list for PBXNativeTarget "RandomThermometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D92CAE26D71B5500C7C04F /* Debug */,
+				08D92CAF26D71B5500C7C04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08D92C7A26D71B4700C7C04F /* Project object */;
+}
